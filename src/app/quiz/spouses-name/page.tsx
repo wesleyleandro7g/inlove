@@ -17,11 +17,12 @@ export default function SpousesName() {
         </h4>
         <div className='relative'>
           <Input
+            autoFocus
             className='border-0 border-b-2 border-text/50 rounded-none focus:border-text focus:outline-none text-lg text-text uppercase'
             onChange={(e) => setName(e.target.value)}
           />
           {name.length > 3 && (
-            <Link href='/quiz/your-name' className='bg-red-300 cursor-pointer'>
+            <Link href='/quiz/your-name' className='cursor-pointer'>
               <div className='absolute right-0 top-0 bg-primary rounded-full  flex items-center h-8 py-1 pl-3 pr-1.5'>
                 <span className='text-text text-xs'>Próximo</span>
                 <ArrowRight className='w-full h-full text-text' />
