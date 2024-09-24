@@ -35,7 +35,7 @@ export default function Relationship() {
     setTimeout(() => {
       console.log(relationType)
       router.push('/quiz/spouses-name')
-    }, 900)
+    }, 500)
   }, [relationType])
 
   return (

@@ -26,7 +26,7 @@ export default function Gender() {
     setTimeout(() => {
       console.log(genderSelected)
       router.push('/quiz/relationship-type')
-    }, 900)
+    }, 500)
   }, [genderSelected])
 
   return (

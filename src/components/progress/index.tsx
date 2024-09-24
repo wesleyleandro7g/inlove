@@ -34,7 +34,7 @@ export function ProgressComponent() {
 
   return (
     <div className='flex items-center justify-between gap-4 w-full p-4'>
-      <ChevronLeft className='text-text' onClick={goBack} />
+      <ChevronLeft className='text-text size-8' onClick={goBack} />
       <Progress
         value={calculateProgress()}
         className='w-full h-3 rounded-full'
