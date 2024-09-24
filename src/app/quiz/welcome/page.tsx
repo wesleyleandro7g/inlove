@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Start() {
   return (
@@ -12,7 +13,9 @@ export default function Start() {
 
       <div className='relative bottom-0 w-full h-[400px]'>
         <div className='absolute w-full px-8 z-30 bottom-[10vh]'>
-          <Button variant='primary'>Começar</Button>
+          <Link href='/quiz/gender'>
+            <Button variant='primary'>Começar</Button>
+          </Link>
         </div>
         <div className='absolute bottom-0 w-full h-[200px] z-20'>
           <Image
